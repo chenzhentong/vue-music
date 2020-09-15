@@ -1,0 +1,103 @@
+.index {
+  width: 15rem;
+  padding-top: 0.6rem;
+  /*line-height: 50rem /@fontsize750;*/
+  /*background-color: #2c3e50;*/
+}
+.index .banner-images {
+  width: 14.04rem;
+  margin: 0 auto;
+  padding: 0.4rem 0 0.2rem 0;
+  position: relative;
+}
+.index .banner-images .image {
+  width: 14.04rem;
+  height: 4.8rem;
+  border-radius: 0.3rem;
+}
+.index .banner-images .items {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  width: 14.04rem;
+  height: 0.4rem;
+  /*background-color: #000000;*/
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 4.6rem;
+}
+.index .banner-images .items .item {
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  display: flex;
+}
+.index .banner-images .items .item .image {
+  width: 0.8rem;
+  height: 0.8rem;
+}
+.index .new-items {
+  width: 14.04rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.index .new-items .new-item {
+  width: 6.8rem;
+  height: 4rem;
+  display: flex;
+  border-radius: 0.3rem;
+  justify-content: center;
+  align-items: center;
+}
+.index .new-items .new-item img {
+  width: 2.4rem;
+  height: 2.4rem;
+}
+.index .new-items .new-item .content {
+  display: flex;
+  flex-flow: column nowrap;
+  margin: 0 0.2rem;
+}
+.index .new-items .new-item .content span {
+  display: block;
+  overflow: hidden;
+  width: 2.4rem;
+  height: 1rem;
+  line-height: 1rem;
+}
+.index .new-items .new-item .content span.name {
+  font-size: 0.4rem;
+  color: #f2f2f2;
+}
+.index .new-items .new-item .content span.desc {
+  font-size: 0.36rem;
+  color: #F7F9C3;
+}
+.index .middle-nav {
+  width: 14.04rem;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
+.index .middle-nav .nav-item {
+  flex: 1;
+}
+.index .middle-nav .nav-item a {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  text-decoration: none;
+  color: #000000;
+}
+.index .middle-nav .nav-item a img {
+  width: 0.72rem;
+  height: 0.72rem;
+}
+.index .middle-nav .nav-item a span {
+  font-size: 0.4rem;
+}
+/*# sourceMappingURL=index.css.map */
